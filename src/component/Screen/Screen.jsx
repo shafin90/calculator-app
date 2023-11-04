@@ -7,7 +7,7 @@ const Screen = () => {
     const {input}= useContext(authContext)
     return (
         <div className="screen">
-            {...input}
+            {input}
         </div>
     );
 };
