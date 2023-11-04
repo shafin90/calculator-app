@@ -19,7 +19,7 @@ const AuthProvider = ({ children }) => {
 
             // Del buttons functionality
             if (input.slice(-3) === "Del") {
-                setInput(input.slice(0, inputLength - 1))
+                setInput(input.slice(0, inputLength - 4))
             }
 
             // "=" button functionality

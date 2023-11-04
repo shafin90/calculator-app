@@ -1,8 +1,9 @@
 .screen{
-    width: 90%;
+    width: 85%;
     height: 20%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-size: 25px;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

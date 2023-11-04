@@ -1,6 +1,7 @@
 .btn {
     width: 60px;
     height: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 50%;
     display: flex;
     color: #636363;
