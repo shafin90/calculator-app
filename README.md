@@ -1,8 +1,10 @@
-# React + Vite
+# Live link - 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+* Components description
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- AuthProvider: This component is used for implementing Context API. Central state management is handeled here.
+- Button: This component contains the button. It is basiclly the button of the calculator.
+- ButtonHolder: This component contains the button. Basically, keypad becomes devided into some portion using grid system. Each of that portion contains one button and called ButtonHolder.
+- Clculator: This is the calculator app. It contains Screen component at the top and KeyPad component after that.
+- KeyPad: This component contains all the button of the calculator.
+- Screen: Thic component contins the screen of calculator.  
