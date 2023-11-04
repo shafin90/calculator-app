@@ -1,15 +1,15 @@
+import { useContext, useEffect } from 'react';
 import './Button.css'
+import { authContext } from '../AuthProvider/AuthProvider';
 
 const Button = ({ num }) => {
-
-    const style = {
-        backgroundColor:"#e0e0e0"
-    }
+    // Taking state and function from authProvider component through Context API
+    const { setInput, input } = useContext(authContext)
 
     return (
-        <div style={style} className="btn">
+        <button onClick={e=>setInput([...input,num])} className="btn">
             {num}
-        </div>
+        </button>
     );
 };
 

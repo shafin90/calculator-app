@@ -1,10 +1,13 @@
+import { useContext } from "react";
+import { authContext } from "../AuthProvider/AuthProvider";
 import Button from "../Button/Button";
 import './ButtonHolder.css'
 
-const ButtonHolder = ({num}) => {
+const ButtonHolder = ({ num }) => {
+   
     return (
         <div className="btnHolder">
-            <Button num={num}></Button>
+            <Button  num={num}></Button>
         </div>
     );
 };

@@ -1,8 +1,11 @@
+import { useContext } from "react";
 import Button from "../Button/Button";
 import ButtonHolder from "../ButtonHolder/ButtonHolder";
 import './KeyPad.css'
+import { authContext } from "../AuthProvider/AuthProvider";
 
 const KeyPad = () => {
+
     return (
         <div className="keyPad">
             <ButtonHolder num={1}></ButtonHolder>
@@ -22,9 +25,9 @@ const KeyPad = () => {
             <ButtonHolder num="*"></ButtonHolder>
             <ButtonHolder num={0}></ButtonHolder>
             <ButtonHolder num="="></ButtonHolder>
-  
-       
-         
+
+
+
         </div>
     );
 };

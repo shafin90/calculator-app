@@ -1,4 +1,8 @@
 .screen{
     width: 90%;
     height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 25px;
 }
