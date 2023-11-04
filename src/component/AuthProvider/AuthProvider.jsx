@@ -6,14 +6,22 @@ const AuthProvider = ({ children }) => {
     const [input, setInput] = useState([]); // Contains all the input
     const [inputLength, setInputLength] = useState(0)
 
+    // AC button, Del buttons functionality==================================================
     useEffect(() => {
         setInputLength(input.length);
+        
+        // AC buttons functionality
         if (input[inputLength]=="AC"){
             setInput([])
         }
+
+        // Del buttons functionality
+        if (input[inputLength]=="Del"){
+            setInput([...input.slice(0,inputLength-1)])
+        }
       }, [input, inputLength]);
    
-    console.log(inputLength, input)
+
     // Handeling all buttons functionality=====================================================
 
 
