@@ -11,3 +11,10 @@
         10px 10px 20px #fbfbfb;
 
 }
+
+@media screen and (max-width:576px) {
+    .calculator {
+        width: 80vw;
+        height: 90vw;
+    }
+}

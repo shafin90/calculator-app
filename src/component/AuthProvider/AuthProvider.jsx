@@ -5,7 +5,7 @@ const AuthProvider = ({ children }) => {
     // State Declaration====================================================================== 
     const [input, setInput] = useState(''); // Contains all the input
     const [inputLength, setInputLength] = useState(0)
-    const [inputStringToEval, setInputStringToEval] = useState('')
+
 
     // AC button, Del buttons functionality==================================================
     useEffect(() => {
